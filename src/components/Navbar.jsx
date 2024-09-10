@@ -8,7 +8,7 @@ function Navbar() {
     <>
       <nav className="fixed top-0 w-full bg-gray-900 text-white py-4">
         <div className="flex items-center justify-between px-4">
-          <h1 className="text-2xl font-bold"><img className='max-w-[120px]' src='../public/icons/flowarelogo-white.webp'/></h1>
+          <h1 className="text-2xl font-bold"><img className='max-w-[120px]' src='./icons/flowarelogo-white.webp'/></h1>
             <button
               className="text-white focus:outline-none md:hidden"
               onClick={() => setIsOpen(!isOpen)} >
